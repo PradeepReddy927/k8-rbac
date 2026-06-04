@@ -20,5 +20,4 @@ metadata:
   creationTimestamp: "2026-06-04T09:06:54Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1074"
   uid: fe83ad00-a5a3-441d-a854-048489fe46f2
