@@ -1,4 +1,5 @@
 # OIDC Provider ===> OpenID connect
+
 Used by Kubernetes to connect with External identity provider
 ```bash
 # my command
@@ -16,7 +17,7 @@ eksctl create iamserviceaccount --cluster=roboshop-dev --name=secret-reader --na
 eksctl create iamserviceaccount  --cluster=<YOUR_CLUSTER_NAME>  --namespace=<YOUR_NAMESPACE> --name=<YOUR_SERVICE_ACCOUNT_NAME> --attach-policy-arn arn:aws:iam::aws:policy/<YOUR_IAM_POLICY> --approve
 ```
 # Delete
-```
+```bash
 eksctl delete iamserviceaccount \
   --cluster roboshop-dev \
   --namespace roboshop \
